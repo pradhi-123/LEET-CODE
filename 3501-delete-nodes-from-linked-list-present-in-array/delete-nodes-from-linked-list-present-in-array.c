@@ -1,3 +1,4 @@
+//
 struct ListNode* modifiedList(int* nums, int numsSize, struct ListNode* head) {
     int arr[100001] = {0};
     for(int i = 0; i < numsSize; i++)
