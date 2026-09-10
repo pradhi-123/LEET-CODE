@@ -14,7 +14,6 @@ int search(int* nums, int numsSize, int target) {
         }
         else 
         {
-
             if(nums[mid] < target && target <= nums[r])
                 l = mid + 1;
             else
