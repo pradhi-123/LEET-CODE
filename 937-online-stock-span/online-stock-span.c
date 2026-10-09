@@ -3,6 +3,7 @@ typedef struct {
     int *spans;
     int top;
 } StockSpanner;
+//
 StockSpanner* stockSpannerCreate() {
     StockSpanner* obj = malloc(sizeof(StockSpanner));
     obj->prices = malloc(10000 * sizeof(int));
