@@ -1,11 +1,10 @@
 class Solution {
     public int minimumNumbers(int num, int k) {
-        int i;
-        int m=0;
         if(num==0)
             return 0;
         if(k==0 && k%10!=num%10)
             return -1;
+        int i,m=0;
         for(i=k;i<=num;i+=k)
         {
             m++;
